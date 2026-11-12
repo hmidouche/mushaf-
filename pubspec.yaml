@@ -1,1 +1,28 @@
+name: mushaf_reader
+description: Quran reading and daily wird app
+publish_to: 'none'
+version: 1.0.3+4
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adhan_dart: 2.0.1
+  pdfx: 2.11.0
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.2.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/BOOK_27070_1.pdf
+    - assets/BOOK_27070_2.pdf
+    - assets/BOOK_27070_3.pdf
+    - assets/BOOK_27070_4.pdf
+    - assets/BOOK_27070_5.pdf
+    - assets/BOOK_27070_6.pdf
 
